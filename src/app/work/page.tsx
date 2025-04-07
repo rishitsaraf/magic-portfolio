@@ -1,5 +1,5 @@
 import { getPosts } from "@/app/utils/utils";
-import { Column } from "@/once-ui/components";
+import { Column, Flex, Text } from "@/once-ui/components";
 import { Projects } from "@/components/work/Projects";
 import { baseURL } from "@/app/resources";
 import { person, work } from "@/app/resources/content";
@@ -64,6 +64,25 @@ export default function Work() {
         }}
       />
       <Projects />
+      <Column fillWidth gap="xl" marginBottom="40" paddingX="l">
+        <Column 
+          fillWidth 
+          gap="m" 
+          border="warning-medium"
+          background="warning-alpha-weak"
+          radius="m"
+          padding="xl"
+        >
+          <Flex horizontal="center" vertical="center">
+            <Text 
+              variant="heading-strong-l" 
+              onBackground="warning-medium"
+            >
+              Page Under Development - More Projects Coming Soon
+            </Text>
+          </Flex>
+        </Column>
+      </Column>
     </Column>
   );
 }
