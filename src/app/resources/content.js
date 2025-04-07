@@ -1,15 +1,15 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Rishit",
+  lastName: "Saraf",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
+  role: "Entrepreneur and Engineer",
   avatar: "/images/avatar.jpg",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  location: "Asia/Kolkata", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English", "Hindi"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -29,12 +29,12 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/rishitsaraf",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/rishit-saraf/",
   },
   {
     name: "X",
@@ -44,7 +44,7 @@ const social = [
   {
     name: "Email",
     icon: "email",
-    link: "mailto:example@gmail.com",
+    link: "mailto:rishitsaraf24@gmail.com",
   },
 ];
 
@@ -52,11 +52,11 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Design engineer and builder</>,
+  headline: <>Entrepreneur and Engineer</>,
   subline: (
     <>
-      I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I'm Rishit, co-founder and CTO of <InlineCode>FLY</InlineCode>, where we are building the
+      <br /> next generation of AI-powered customer engagement platform.
     </>
   ),
 };
@@ -81,9 +81,9 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Rishit is a Mumbai-based entrepreneur and engineer with a passion for transforming complex challenges
+        into simple, data-driven solutions. His work spans digital transformation, process automation,
+        and the convergence of business and technology.
       </>
     ),
   },
@@ -92,18 +92,22 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Kuloday Technopack Pvt Ltd",
+        timeframe: "November 2024 - Present",
+        role: "Freelance Digital Transformation Consultant",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Implemented a custom CRM, mapping processes across 3 factories, creating a custom Order Management System, 
+            and architecting a pipeline to automate ETL processes that has already processed over 2mn rows.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Developed a dashboard and integrated with legacy system to track 5 key sales metrics including (AOV, sales costs, CLV, CAC), 
+            automating data analysis for informed decision-making.
           </>,
+           <>
+           Developed and integrated a WhatsApp e-commerce chatbot with the CRM, enhancing customer engagement and 
+           contributing to a direct 11% increase in sales volume.
+         </>,
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
@@ -116,17 +120,54 @@ const about = {
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "PwC Strategy&",
+        timeframe: "June 2024 - Sept 2024",
+        role: "Data Consultant Associate",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Identified and evaluated 60 AI use cases for an Italian retail bank using 15 key metrics. 
+            Presented technical and financial analysis of implementable ML models and performance indicators to guide 
+            C-level AI adoption decisions.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Identified an opportunity for 80% reduction in annual operating expenditures by implementing three strategic AI use cases.
+          </>,
+          <>
+            Presented an implementation plan supported by detailed financial models and break-even analysis to senior stakeholders.
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "Altus Reach",
+        timeframe: "Dec 2023 - May 2024",
+        role: "Co-Founder & CTO",
+        achievements: [
+          <>
+            Led a cross-functional team of 5 members to design and launch an AI-driven SaaS platform, reducing video editing time by 
+            at least 75% through one-click creation of short-format reels from long-format videos.
+          </>,
+          <>
+            Developed a proprietary deep learning model, achieving 92% accuracy in emotion extraction from videos.
+          </>,
+          <>
+            Secured GBP 5000 in Microsoft Azure credits by developing a robust business case and pitch, enhancing platform scalability.
+          </>
+        ],
+        images: [],
+      },
+      {
+        company: "JP Morgan Chase & Co",
+        timeframe: "June 2023 - Aug 2023",
+        role: "Investment Banking Analyst Intern",
+        achievements: [
+          <>
+            Conducted due diligence on 5 M&A targets for an Asian beverage company, assessing strategic alignment, financial health, and
+            structural fit by developing a comprehensive DCF model incorporating WACC and terminal value analysis.
+          </>,
+          <>
+            Drove 15% ROI increase through a strategic acquisition, leveraging revised DCF model that accounted for plant fire and
+            competitor bid; Presented updated valuation to clients enabling crucial decision-making amid market challenges.
           </>,
         ],
         images: [],
@@ -138,12 +179,12 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Imperial College London",
+        description: <>MSc Business Analytics</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "SRM Institute of Science and Technology",
+        description: <>BTech Computer Science Engineering</>,
       },
     ],
   },
