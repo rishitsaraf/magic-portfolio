@@ -161,7 +161,7 @@ const about = {
       },
       {
         company: "JP Morgan Chase & Co",
-        timeframe: "June 2023 - Aug 2023",
+        timeframe: "Sept 2022 - Dec 2022",
         role: "Investment Banking Analyst Intern",
         achievements: [
           <>
