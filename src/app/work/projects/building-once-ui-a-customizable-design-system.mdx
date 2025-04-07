@@ -1,45 +1,62 @@
 ---
-title: "Building Once UI, a Customizable Design System"
+title: "Deepfake Detection using Euler Video Magnification"
 publishedAt: "2024-04-08"
-summary: "Development of a flexible and highly customizable design system using Next.js for front-end and Figma for design collaboration."
+summary: "This project focuses on developing a video content authenticity detection system using Euler Video Magnification (EVM). The model detects whether a face in a video is real or fake by magnifying subtle physiological signals, such as heartbeat, and analyzing the frames through machine learning techniques.
+"
 images:
-  - "/images/projects/project-01/cover-01.jpg"
+  - "/images/projects/project-01/cover-01.jpeg"
   - "/images/projects/project-01/cover-02.jpg"
   - "/images/projects/project-01/cover-03.jpg"
   - "/images/projects/project-01/cover-04.jpg"
+  - "/images/projects/project-01/cover-05.jpg"
 team:
-  - name: "Selene Yu"
-    role: "Software Engineer"
+  - name: "Rishit Saraf"
+    role: "Team Lead"
     avatar: "/images/avatar.jpg"
-    linkedIn: "https://www.linkedin.com/company/once-ui/"
-  - name: "Jane Smith"
+    linkedIn: "https://www.linkedin.com/in/rishit-saraf/"
+  - name: "Devansh Pratap"
     role: "Product Manager"
-    avatar: "/images/projects/project-01/avatar-01.png"
-    linkedIn: "https://www.linkedin.com/company/once-ui/"
+    avatar: "/images/projects/project-01/devansh.png"
+    linkedIn: "https://www.linkedin.com/in/devanshps25/"
 ---
 
 ## Overview
 
-Development of a flexible and highly customizable design system using Next.js for front-end and Figma for design collaboration.
+This project focuses on developing a video content authenticity detection system using Euler Video Magnification (EVM). The model detects whether a face in a video is real or fake by magnifying subtle physiological signals, such as heartbeat, and analyzing the frames through machine learning techniques.
 
 ## Key Features
 
-- **Component Library**: Built a set of modular, reusable UI components using React and styled-components in Next.js, focusing on accessibility and responsiveness.
-- **Theming and Customization**: Integrated a theming system that allows easy switching and customization of color palettes, typography, and layout styles using CSS variables and Figma tokens.
-- **Figma Integration**: Collaborated closely with designers by setting up a shared design library in Figma. This library was synchronized with the codebase, ensuring design handoffs were seamless and that design tokens remained consistent across both platforms.
-- **Documentation and Usage Guidelines**: Developed comprehensive documentation with Storybook to showcase components, usage patterns, and best practices, ensuring the design system is easy to adopt by other teams.
+- **Euler Video Magnification (EVM)**: Used to amplify subtle color variations in facial regions, which correspond to heartbeat signals.
+- **Frame Processing Pipeline**:
+  - Frame extraction
+  - Landmark detection and facial region cropping using `dlib`
+  - Video stitching from processed frames
+- **Signal Analysis**: Performed Fast Fourier Transform (FFT) on the Region of Interest (ROI) to extract frequency-domain features.
+- **Deep Learning Classification**: The final pipeline aims to classify videos as “Pristine” or “Fake” using an LSTM-based classifier (in-progress).
+- **Collaboration & Research**: Developed as part of a research initiative at Ben-Gurion University’s Summer Programme.
 
 ## Technologies Used
 
-- **Next.js**: For fast, server-rendered React applications.
-- **Figma**: For creating and managing design assets and prototypes.
-- **Styled-Components**: For styling React components with a modular, themable approach.
-- **Storybook**: For building an interactive, documented component library.
+- **Libraries**: NumPy, OpenCV (`cv2`), dlib, TensorFlow, matplotlib, skimage, Pandas, PIL
+- **Video Processing**: FFT, EVM
+- **Machine Learning**: LSTM (planned), signal processing techniques
 
-## Challenges and Learnings
+## Roadmap
 
-One key challenge was balancing the need for flexibility with the desire to maintain design consistency. The solution involved creating well-defined design tokens and establishing clear guidelines for when and how components could be customized. Additionally, setting up effective collaboration workflows between designers and developers using Figma and Git was a learning experience that greatly improved the process.
+- ✅ Dataset Identification and Balancing
+- ✅ Preprocessing Pipeline for Frame Extraction and Cropping
+- ✅ Euler Video Magnification Implementation
+- ⬜ LSTM-Based Classification Model
+- ⬜ Automated End-to-End Pipeline
+- ⬜ Deployment of Detection System
 
-## Outcome
+## Resources and Inspiration
 
-The design system is now actively used across multiple projects, leading to faster development cycles, fewer design inconsistencies, and improved collaboration between design and development teams. It has become a foundation for scaling our products efficiently while ensuring a cohesive user experience.
+- [DeepRhythm: Exposing DeepFakes with Attentional Visual Heartbeat Rhythms](https://arxiv.org/pdf/2006.07634.pdf)
+- [Image Processing with FFT – Towards Data Science](https://towardsdatascience.com/image-processing-with-python-application-of-fourier-transformation-5a8584dc175b)
+- [PyEVM – Python Implementation of Euler Video Magnification](https://github.com/flyingzhao/PyEVM)
+- [MIT's Original EVM Implementation](https://people.csail.mit.edu/mrub/evm/)
+
+## Project Link
+
+🔗 [View on GitHub](https://github.com/rishitsaraf/remoteheartrate_deepfake_detection)
