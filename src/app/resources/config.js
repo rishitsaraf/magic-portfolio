@@ -15,9 +15,9 @@ const protectedRoutes = {
 };
 
 const style = {
-  theme: "light", // dark | light
+  theme: "dark", // dark | light
   neutral: "slate", // sand | gray | slate
-  brand: "indigo", // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan
+  brand: "blue", // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan
   accent: "orange", // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan
   solid: "contrast", // color | contrast
   solidStyle: "flat", // flat | plastic

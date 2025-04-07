@@ -52,11 +52,19 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Entrepreneur and Engineer</>,
+  headline: <>Entrepreneur, Engineer & Full-Time Learner</>,
   subline: (
     <>
-      I'm Rishit, co-founder and CTO of <InlineCode>FLY</InlineCode>, where we are building the
-      <br /> next generation of AI-powered customer engagement platform.
+       I'm Rishit Saraf, co-founder and CTO of <InlineCode>Omnipresence</InlineCode>, where we are building the
+      <br/>  next generation of AI-powered consumer marketplace.
+      <br/><br/>
+      I’m a data enthusiast at heart, driven by a curiosity to uncover insights that can shape the future of businesses. 
+      Currently, I’m deepening my expertise with a Master’s in Business Analytics at Imperial College London, where 
+      I’m excited about the intersection of advanced analytics, machine learning, and strategic decision-making.
+      <br/><br/>
+      My background in Computer Science from SRM Institute of Science and Technology laid the foundation for my love of problem-solving and innovation. I thrive on challenges that require not just technical skills but also creativity and forward-thinking. Whether it’s designing AI-driven solutions or leading technology initiatives, I’m motivated by the impact that well-informed decisions can have on an organisation’s success.
+      <br/><br/>
+      Leadership and collaboration are at the core of who I am. I enjoy bringing people together to tackle complex problems, and I’ve had the privilege to do so in various roles, from co-founding a startup to leading tech-focused student clubs. Recognised for my ability to innovate and inspire, I’m always looking for opportunities to make a meaningful difference.
     </>
   ),
 };
@@ -67,14 +75,14 @@ const about = {
   description: `Meet ${person.name}, ${person.role} from ${person.location}`,
   tableOfContent: {
     display: true,
-    subItems: false,
+    subItems: true,
   },
   avatar: {
     display: true,
   },
   calendar: {
     display: true,
-    link: "https://cal.com",
+    link: "https://cal.com/rishit-saraf/15min",
   },
   intro: {
     display: true,
@@ -111,12 +119,7 @@ const about = {
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
+          
         ],
       },
       {
@@ -180,11 +183,11 @@ const about = {
     institutions: [
       {
         name: "Imperial College London",
-        description: <>MSc Business Analytics</>,
+        description: <>MSc Business Analytics <br/> Head of Technology - India Business Careers Club </>,
       },
       {
         name: "SRM Institute of Science and Technology",
-        description: <>BTech Computer Science Engineering</>,
+        description: <>BTech Computer Science Engineering <br/> President - IET on Campus Club <br/><br/> Summer Abroad (2021) @National University Singapore - Data Analytics using Deep Learning<br/><br/> Summer Abroad (2022) @Bengurion University, Israel - Data Mining and Cybersecurity for Business Intelligence </>,
       },
     ],
   },
@@ -193,36 +196,29 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        title: "Python & SQL",
+        description: <>Used extensively for data analysis, automation, and ML workflows.</>,
+        images: [],
       },
       {
-        title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        title: "React",
+        description: <>Built dynamic, performant UIs with React + Tailwind + TypeScript.</>,
+        images: [],
+      },
+      {
+        title: "Machine Learning",
+        description: <>Hands-on experience with TensorFlow, Keras, Scikit-learn for real-world ML applications.</>,
+        images: [],
+      },
+      {
+        title: "Big Data & Cloud",
+        description: <>Worked with Apache Spark, Azure ML, and basic AWS for scalable data solutions.</>,
+        images: [],
+      },
+      {
+        title: "Data Visualization",
+        description: <>Created dashboards and insights using Tableau, Power BI, and custom-built visualizations.</>,
+        images: [],
       },
     ],
   },
