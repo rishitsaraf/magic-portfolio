@@ -249,7 +249,7 @@ const gallery = {
     {
       src: "/images/gallery/img-01.jpg",
       alt: "image",
-      orientation: "vertical",
+      orientation: "horizontal",
     },
     {
       src: "/images/gallery/img-02.jpg",
@@ -279,7 +279,7 @@ const gallery = {
     {
       src: "/images/gallery/img-07.jpg",
       alt: "image",
-      orientation: "horizontal",
+      orientation: "vertical",
     },
     {
       src: "/images/gallery/img-08.jpg",
@@ -294,7 +294,7 @@ const gallery = {
     {
       src: "/images/gallery/img-10.jpg",
       alt: "image",
-      orientation: "horizontal",
+      orientation: "vertical",
     },
     {
       src: "/images/gallery/img-11.jpg",
@@ -308,11 +308,6 @@ const gallery = {
     },
     {
       src: "/images/gallery/img-13.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-14.jpg",
       alt: "image",
       orientation: "horizontal",
     },
