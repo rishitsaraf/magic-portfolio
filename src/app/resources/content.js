@@ -154,7 +154,7 @@ const about = {
             Developed a proprietary deep learning model, achieving 92% accuracy in emotion extraction from videos.
           </>,
           <>
-            Secured GBP 5000 in Microsoft Azure credits by developing a robust business case and pitch, enhancing platform scalability.
+            Leveraged product management tools to build a structured customer discovery pipeline; conducted ~30 interviews to identify user segments, uncover key pain points, and develop a feature prioritization matrix to guide product strategy
           </>
         ],
         images: [],
