@@ -187,7 +187,7 @@ const about = {
       },
       {
         name: "SRM Institute of Science and Technology",
-        description: <>BTech Computer Science Engineering <br/> President - IET on Campus Club <br/><br/> Summer Abroad (2021) @National University Singapore - Data Analytics using Deep Learning<br/><br/> Summer Abroad (2022) @Bengurion University, Israel - Data Mining and Cybersecurity for Business Intelligence </>,
+        description: <>BTech Computer Science Engineering <br/> President - IET on Campus Club <br/><br/>  Summer Abroad (2022) @Bengurion University, Israel - Data Mining and Cybersecurity for Business Intelligence  <br/><br/>Summer Abroad (2021) @National University Singapore - Data Analytics using Deep Learning</>,
       },
     ],
   },
