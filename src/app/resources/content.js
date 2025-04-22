@@ -55,7 +55,14 @@ const home = {
   headline: <>Entrepreneur, Engineer & Full-Time Learner</>,
   subline: (
     <>
-       I'm Rishit Saraf, co-founder and CTO of <InlineCode>Omnipresence</InlineCode>, where we are building the
+       I'm Rishit Saraf, co-founder and CTO of <a
+  href="https://omnipresence.vercel.app"
+  target="_blank"
+  rel="noopener noreferrer"
+  style={{ fontFamily: 'monospace', color: 'black', backgroundColor: '#f5f5f5', padding: '2px 4px', borderRadius: '4px' }}
+>
+  Omnipresence
+</a>, where we are building the
       <br/>  next generation of AI-powered consumer marketplace.
       <br/><br/>
       I’m a data enthusiast at heart, driven by a curiosity to uncover insights that can shape the future of businesses. 
