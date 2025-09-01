@@ -56,7 +56,7 @@ const home = {
   subline: (
     <>
        I'm Rishit Saraf, co-founder and CTO of <a
-  href="https://omnipresence.vercel.app"
+  href="https://omnipresence.in"
   target="_blank"
   rel="noopener noreferrer"
   style={{ fontFamily: 'monospace', color: 'black', backgroundColor: '#f5f5f5', padding: '2px 4px', borderRadius: '4px' }}
